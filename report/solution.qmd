@@ -13,17 +13,17 @@ Run `python scripts/run_pipeline.py` from the project root. The pipeline must fi
 
 | method | estimated_fwer |
 |---|---:|
-| uncorrected | |
-| bonferroni | |
-| holm | |
+| uncorrected | 0.958 |
+| bonferroni | 0.042 |
+| holm | 0.042 |
 
 ## 3. FDR and power
 
 | method | estimated_fdr | estimated_power |
 |---|---:|---:|
-| uncorrected | | |
-| benjamini_hochberg | | |
-| benjamini_yekutieli | | |
+| uncorrected | 0.177 | 0.617 |
+| benjamini_hochberg | 0.022 | 0.289 |
+| benjamini_yekutieli | 0.005 | 0.11 |
 
 ## 4. Brief interpretation
 
